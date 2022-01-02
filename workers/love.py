@@ -16,7 +16,7 @@ from pyrogram import Client, Filters, StopPropagation, InlineKeyboardButton, Inl
 async def love(client, message):
     # return
     joinButton = InlineKeyboardMarkup([
-        [InlineKeyboardButton("♂️ Github", url="https://github.com/PredatorHackerzZ")],
+        [InlineKeyboardButton("GROUP", url="https://t.me/youtube_video_downloade_grp")],
     ])
     Aww = f"""Hey <b>{message.from_user.first_name}</b>
 If you liked my project and want to be a GitHub contributor then:
@@ -27,11 +27,11 @@ If you liked my project and want to be a GitHub contributor then:
 - Star & Fork my GitHub Repo else You are Gay.\n
 
 If you liked my project and want and want to Donate then you can:
-- [PayPal](https://paypal.me/AbhishekKumarIN47) 
+- [ARJUN](https://t.me/lvx2_edz) 
     
 **<b>{message.from_user.first_name}</b> 😁 Thanks a lot for using my bot**
 
-[@YoutubeXDBot](https://telegra.ph/file/a532f298b920e99bd58bb.jpg)
+[@Yt_dwnld_robot](https://te.legra.ph/file/1cfc29eeaa8eebc7ce550.jpg)
 """      
     await message.reply_text(Aww, reply_markup=joinButton)
     raise StopPropagation
